@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/AndradeBarbearia/static/css/main.48bf282b.css",
+    "main.js": "/AndradeBarbearia/static/js/main.42116529.js",
+    "static/media/2_resized_resized.jpg": "/AndradeBarbearia/static/media/2_resized_resized.b3720008938a32b32193.jpg",
+    "static/media/4_resized.jpg": "/AndradeBarbearia/static/media/4_resized.f6bcea76ca99f8e11578.jpg",
+    "static/media/1_resized.jpg": "/AndradeBarbearia/static/media/1_resized.ba7c915a3e544a215fe8.jpg",
+    "static/media/3_resized_resized.jpeg": "/AndradeBarbearia/static/media/3_resized_resized.39e104147a7378603111.jpeg",
+    "static/media/cadeira.png": "/AndradeBarbearia/static/media/cadeira.8afbb7c1277feebb475f.png",
+    "static/media/WhatsApp-Logo.png": "/AndradeBarbearia/static/media/WhatsApp-Logo.1ee748db55d428ce9e9d.png",
+    "static/media/fotoLukas.jpg": "/AndradeBarbearia/static/media/fotoLukas.4c5a1ba2b5c1959fc544.jpg",
+    "static/media/instaLogo.png": "/AndradeBarbearia/static/media/instaLogo.b2373194ab174a4568fe.png",
+    "static/media/backgroundBanner.jpeg": "/AndradeBarbearia/static/media/backgroundBanner.32c713c042b72b441c54.jpeg",
+    "static/media/barbearia.png": "/AndradeBarbearia/static/media/barbearia.347b47405c15cc03fa79.png",
+    "static/media/fundo-preto-branco.JPG": "/AndradeBarbearia/static/media/fundo-preto-branco.72af626a6a7ea30cd608.JPG",
+    "static/media/slick.svg": "/AndradeBarbearia/static/media/slick.7ba97953187dc2907930.svg",
+    "static/media/slick.eot": "/AndradeBarbearia/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/AndradeBarbearia/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/AndradeBarbearia/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/AndradeBarbearia/index.html",
+    "main.48bf282b.css.map": "/AndradeBarbearia/static/css/main.48bf282b.css.map",
+    "main.42116529.js.map": "/AndradeBarbearia/static/js/main.42116529.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48bf282b.css",
+    "static/js/main.42116529.js"
+  ]
+}
