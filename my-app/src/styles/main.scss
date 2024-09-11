@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Frijole&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.HeaderNav{
+    text-align: center;
+    padding: 15px;
+    background-color: #202020;
+    border-bottom: solid #262626;
+}
+.HeaderNav a{
+    text-decoration: none;
+    padding: 80px;
+    color: rgb(187, 187, 187);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.HeaderNav a:hover{
+    text-decoration: underline white;
+}
+.BannerBox{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #262626;
+    background-image: url(../assets/backgroundBanner.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: solid #ffffff3a;
+}
+.FotoLucasClass{
+    width: 400px;
+    border-radius: 50%;
+    border: solid #ffffff 2px;
+    background-color: #262626;
+}
+.h1Banner{
+    padding: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+}
+.pBanner{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #aaaaa8;
+    background-color: #00000049;
+    padding: 10px;
+}
+.ServicosBox{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-image: url(../assets/fundo-preto-branco.JPG);
+    background-size: cover;
+    background-position: center right;
+}
+.servicosh2{
+    padding: 80px;
+    font-size: 3em;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.26);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.servicosh2ph{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    line-height: 20px;
+}
+.servicosP p{
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+}
+.servicosP p:hover{
+    background-color: #707070;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.ModelosExemplos{
+    border-top:solid  #2020204f;
+}
+.ModelosExemplos h2{
+    text-align: center;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 4em;
+    color: #292727;
+}
+.ModelosExemplos hr{
+    padding: 5px;
+}
+.carousel-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.carousel-container {
+    width: 95%;
+    margin: 0 auto;
+}
+.agendeseuhorariobox{
+    background-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agendeLeft{
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+}
+.agendeLeft h3{
+    padding: 30px;
+    font-size: 5em;
+    color: rgb(141, 139, 139);
+    font-family: "Poppins", sans-serif;
+}
+.agendeLeft p{
+    color: rgb(141, 139, 139);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+.agendeRight{
+    text-align: center;
+    padding: 20px;
+}
+.agendeRight p{
+    color: rgb(141, 139, 139);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+.fotocadeira{
+    width: 70%;
+    border: solid #F2B705;
+    background-color: #F2B705;
+    border-radius: 50%;
+}
+.fotocadeira:hover{
+    background-color: #b1880d;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.redes{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-top: solid rgba(141, 139, 139, 0.082);;
+}
+.insta{
+    padding: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+}
+.insta p{
+    padding: 20px;
+}
+.instalogo{
+    width: 200px;
+}
+.whats{
+    padding: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+}
+.whats p{
+    padding: 20px;
+}
+.wpplogo{
+    width: 40%;
+}
+.h3Frase{
+    color: rgb(100, 99, 99);
+    font-size: 2em;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+.footerbox{
+    display: flex;
+    background-color: #202020;
+    border-top: solid #262626;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(192, 188, 188);
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+.imgfooter{
+    width: 10%;
+    margin: auto;
+}
