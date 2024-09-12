@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento na Barbearia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="../imagens/0c9090a5-9add-4a9f-ad31-e841d2126cb2.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Agende seu horário</h1>
+        <form id="appointmentForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Data do Agendamento:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário do Agendamento:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

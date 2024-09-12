@@ -15,7 +15,7 @@ const ModelCarousel = () => {
         slidesToShow: 4, // Mostra uma imagem por vez
         slidesToScroll: 1, // Desliza uma imagem por vez
         autoplay: true, // Faz o carrossel rodar automaticamente
-        autoplaySpeed: 2500, // Tempo de intervalo para o autoplay
+        autoplaySpeed: 1800, // Tempo de intervalo para o autoplay
     };
 
     const images = [
@@ -26,8 +26,7 @@ const ModelCarousel = () => {
     ];
 
     return   <div className='ModelosExemplos'>
-        <h2>Alguns de nossos trabalhos</h2>
-        <hr />
+        <h2>AlGUNS DE NOSSOS <span>TRABALHOS</span></h2>
         <div className="carousel-container">
         <Slider {...settings}>
             {images.map((image, index) => (

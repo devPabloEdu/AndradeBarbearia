@@ -12,7 +12,7 @@ function AgendeSeuHorario() {
             </div>
             <div className='agendeRight'>
                 <a href="https://andradebarbeariadelivery.vercel.app/agendamento-barbearia/index.html" target='_blank'><img src={FotoCadeira} alt="" className='fotocadeira'/></a>
-                <p>Entre em contato via Whatsapp ( 1 1 ) 9 5 8 9 0 -9 2 2 6</p>
+                <p>Entre em contato via Whatsapp <br />( 1 1 ) 9 5 8 9 0 -9 2 2 6</p>
             </div>
         </div>
     </div>

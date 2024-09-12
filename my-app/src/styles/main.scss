@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Frijole&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
 }
@@ -8,66 +12,71 @@
     font-weight: 700;
     font-style: normal;
   }
+.backgroundbannerdivbox{
+    background-image: url(../assets/backgroundBanner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 .HeaderNav{
+    background-color: #2020204f;
     text-align: center;
     padding: 15px;
-    background-color: #202020;
-    border-bottom: solid #262626;
 }
 .HeaderNav a{
+    text-align: center;
     text-decoration: none;
-    padding: 80px;
-    color: rgb(187, 187, 187);
-    font-family: "Poppins", sans-serif;
+    padding: 80px 80px 20px 20px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
     font-size: 12px;
     font-weight: 600;
+    text-shadow: #00000031  2px 3px 2px ;
 }
 .HeaderNav a:hover{
     text-decoration: underline white;
+    background-color: #383838c0;
 }
 .BannerBox{
     display: flex;
     justify-content: center;
     padding: 40px;
-    background-color: #262626;
-    background-image: url(../assets/backgroundBanner.jpeg);
-    background-size: cover;
-    background-position: center;
     border-bottom: solid #ffffff3a;
 }
-.FotoLucasClass{
-    width: 400px;
+.FotoLucasClass img{
+    width: 100%;
     border-radius: 50%;
     border: solid #ffffff 2px;
     background-color: #262626;
 }
 .h1Banner{
     padding: 40px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     color: #ffffff;
     font-size: 4em;
 }
 .pBanner{
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 12px;
     line-height: 22px;
     color: #aaaaa8;
     background-color: #00000049;
     padding: 10px;
 }
-.ServicosBox{
-    display: flex;
-    padding: 50px;
-    justify-content: center;
+.backgroundimageclass{
     background-image: url(../assets/fundo-preto-branco.JPG);
     background-size: cover;
     background-position: center right;
 }
+.ServicosBox{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
 .servicosh2{
     padding: 80px;
     font-size: 3em;
-    font-family: "Dancing Script", cursive;
-    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    color: #202020;
     border: solid rgba(0, 0, 0, 0.26);
     border-radius: 50%;
     justify-content: center;
@@ -75,10 +84,11 @@
     text-align: center;
 }
 .servicosh2ph{
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 12px;
     padding: 20px;
     line-height: 20px;
+    color: black;
 }
 .servicosP p{
     font-size: 1em;
@@ -86,29 +96,30 @@
     font-weight: bold;
     padding: 20px;
     margin: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.027);
+    border: solid rgba(245, 245, 245, 0.205);
     border-radius: 10px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     text-align: center;
     color: white;
 }
 .servicosP p:hover{
-    background-color: #707070;
-    color: rgb(0, 0, 0);
+    background-color: #70707021;
+    color: white;
     cursor: pointer;
-}
-.ModelosExemplos{
-    border-top:solid  #2020204f;
 }
 .ModelosExemplos h2{
     text-align: center;
     padding: 10px;
-    font-family: "Dancing Script", cursive;
-    font-size: 4em;
-    color: #292727;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: #313131;
+    text-shadow: #00000079  2px 3px 2px ;
 }
-.ModelosExemplos hr{
-    padding: 5px;
+span{
+    color: #f1f1f1;
 }
 .carousel-image {
     width: 100%;
@@ -138,7 +149,7 @@
 }
 .agendeLeft p{
     color: rgb(141, 139, 139);
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 15px;
 }
 .agendeRight{
@@ -147,7 +158,7 @@
 }
 .agendeRight p{
     color: rgb(141, 139, 139);
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 18px;
     padding: 20px;
 }
@@ -167,54 +178,104 @@
     padding: 20px;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
-    border-top: solid rgba(141, 139, 139, 0.082);;
 }
 .insta{
     padding: 15px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    color: rgb(100, 99, 99);
-    font-size: 15px;
 }
 .insta p{
-    padding: 20px;
+    padding-bottom: 8px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    color: rgb(179, 176, 176);
 }
 .instalogo{
-    width: 200px;
+    width: 20%;
 }
 .whats{
-    padding: 15px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    color: rgb(100, 99, 99);
-    font-size: 15px;
 }
 .whats p{
-    padding: 20px;
+    padding-bottom: 8px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    color: rgb(179, 176, 176);
 }
 .wpplogo{
-    width: 40%;
+    width: 20%;
 }
 .h3Frase{
-    color: rgb(100, 99, 99);
-    font-size: 2em;
-    padding: 20px;
-    font-family: "Dancing Script", cursive;
+    color: rgb(136, 135, 135);
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
     text-align: center;
 }
 .footerbox{
     display: flex;
     background-color: #202020;
     border-top: solid #262626;
-    padding: 50px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    color: rgb(192, 188, 188);
-    font-size: 18px;
-    font-family: "Poppins", sans-serif;
+    color: rgb(179, 176, 176);
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
 }
 .imgfooter{
-    width: 10%;
+    width: 20%;
     margin: auto;
+}
+
+/* DISPOSITIVOS MÓVEIS */
+@media (max-width: 480px) {
+    .HeaderNav a {
+        padding: 8px;
+      }
+      .FotoLucasClass img{
+        width: 25vh;
+    }
+    .h1Banner{
+        padding: 10px;
+        font-family: "Roboto Mono", monospace;
+        color: #ffffff;
+        font-size: 1em;
+    }
+    .pBanner{
+        font-family: "Roboto Mono", monospace;
+        font-size: 1em;
+        color: #aaaaa8;
+        background-color: #00000049;
+        padding: 5px;
+    }
+    .BannerBox{
+        display: block;
+        text-align: center;
+    }
+    .ServicosBox{
+        display: block;
+    }
+    .servicosh2{
+        padding: 10px;
+        font-size: 3em;
+    }
+    .servicosh2ph{
+        color: whitesmoke;
+    }
+    .agendeseuhorariobox{
+        display: block;
+    }
+    .agendeLeft h3{
+        padding: 15px;
+        font-size: 2em;
+        color: rgb(141, 139, 139);
+        font-family: "Poppins", sans-serif;
+    }
+    .h3Frase{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .HeaderNav a{
+       font-size: 8px;
+    }
 }
